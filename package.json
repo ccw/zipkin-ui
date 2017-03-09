@@ -45,7 +45,8 @@
     "ts-loader": "^0.9.4",
     "typescript": "^2.0.3",
     "webpack-merge": "^0.15.0",
-    "zone.js": "^0.7.4"
+    "zone.js": "^0.7.4",
+    "moment": "^2.10.0"
   },
   "devDependencies": {
     "codelyzer": "*",

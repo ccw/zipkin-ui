@@ -13,7 +13,7 @@ gulp.task('clean:dist', function(cb) {
     rimraf(paths.dist, cb);
 });
 
-gulp.task('server', plugins.shell.task('webpack-dev-server --inline --colors --progress --port 3000'));
+gulp.task('server', plugins.shell.task('webpack-dev-server --inline --colors --progress --port 3333'));
 
 gulp.task('build', plugins.shell.task([
     'rimraf dist',
